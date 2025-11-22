@@ -117,9 +117,9 @@ const HistoricoCompras = () => {
 
   return (
     <div className="flex w-screen h-screen overflow-hidden bg-orange-100 text-gray-800 font-sans">
-      <aside className="w-64 shrink-0"><Sidebar /></aside>
+      
 
-      <div className="flex-1 min-w-0 flex flex-col">
+      <div className="flex-1 min-w-0 flex flex-col ml-64">
         <div className="h-28 bg-gradient-to-r from-orange-400 via-yellow-500 to-orange-600 flex flex-col items-center justify-center text-white rounded-b-3xl">
           <h2 className="text-2xl font-bold">Histórico de Compras</h2>
         </div>

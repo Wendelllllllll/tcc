@@ -88,8 +88,8 @@ const EnviarCSV = () => {
                                         type="button"
                                         onClick={() => document.getElementById("input-csv").click()}
                                         className="w-full py-3 px-4 rounded-lg border border-orange-400 bg-orange-50 
-               text-orange-700 font-medium shadow-sm hover:bg-orange-100 
-               hover:border-orange-500 transition flex items-center justify-center gap-2"
+                                                    text-orange-700 font-medium shadow-sm hover:bg-orange-100 
+                                                    hover:border-orange-500 transition flex items-center justify-center gap-2"
                                     >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -150,13 +150,9 @@ const EnviarCSV = () => {
                                 className="flex-1 w-full h-[21rem] object-contain"
                             />
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     );
 };

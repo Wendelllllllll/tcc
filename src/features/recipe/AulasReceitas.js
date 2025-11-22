@@ -166,10 +166,6 @@ const AulasReceitas = () => {
 
   return (
     <div className="flex w-screen h-screen overflow-hidden bg-gray-50 text-gray-800 font-sans">
-
-      {/* Sidebar */}
-      <Sidebar />
-
       <div className="flex-1 flex flex-col bg-orange-100 ml-64">
 
         {/* Topbar */}
@@ -354,9 +350,6 @@ const AulasReceitas = () => {
         onClose={() => setIsModalOpen(false)}
         onAddReceitas={handleAddReceitas}
       />
-
-      {/* Modal global */}
-      <StatusModal />
     </div>
   );
 };
